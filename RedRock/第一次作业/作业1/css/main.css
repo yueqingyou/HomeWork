@@ -1,0 +1,55 @@
+.head1 a{
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.head2  a{
+    float: right;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+.head2 button{
+    float: right;
+    text-decoration: none;
+    color: white;
+    background-color:rgba(4, 0, 255, 0.637);
+    border-radius: 7px;
+    font-size: 9px;
+    margin-right: 20px;
+    margin-top: 7px;
+}
+#input1 {
+    margin-left: -15px;
+    width: 500px; 
+    height: 34px;
+    border-radius: 8px 0 0 8px;
+}
+#input2{
+    width: 100px;
+    height: 40px;
+    color: white;
+    background-color:rgba(4, 0, 255, 0.637);
+    font-size: 14px;
+    margin-top: 10px;
+    border-radius: 0 8px 8px 0;
+}
+p{
+    font-size: 9px;
+    display: inline-block;
+}
+.body {
+    margin-top: 35px;
+    margin-left: 110px;
+    width: 610px;
+}
+ol{
+    margin-left: -25px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 9px;
+}
+.foot{
+    margin-top: 100%;
+}

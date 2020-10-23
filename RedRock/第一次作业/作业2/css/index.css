@@ -1,0 +1,99 @@
+.box{
+    justify-content: center;
+    display: flex;
+}
+.main{
+    width: 600px;
+    height: 500px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    border-radius: 10px;
+}
+.head{
+    border-radius: 10px 10px 0 0;
+    height: 55px;
+    background-color: gray;
+}
+#denglu{
+    position: absolute;
+    font-size: 20px;
+    margin-top: 13px;
+    margin-left: 15px;
+}
+#x{
+    float: right;
+    font-size: 20px;
+    margin-top: 13px;
+    margin-right: 13px;
+    color: white;
+    background-color: gray;
+}
+.body{
+    background-color:  rgb(220, 234, 255);
+    height: 455px;
+    border-radius: 0 0 10px 10px;
+
+}
+.body span{
+    font-size: 18px;
+}
+#sjh{
+    display: inline-block;
+    margin-top: 25px;
+    padding-left: 150px;
+}
+.body a{
+    text-decoration: none;
+    color: green;
+}
+.body input{
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 150px;
+    width: 300px;
+    height: 30px;
+}
+#sjyzm{
+    margin-top: 5px;
+    margin-left: 150px;
+    display: block;
+}
+#mm{
+    margin-left: 150px;
+}
+#gd{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    color: black;
+    margin-top: 10px;
+}
+.foot button{
+    border-radius: 5px;
+    font-size: 18px;
+    display: block;
+    background-color: green;
+    color: white;
+    width: 310px;
+    height: 30px;
+    margin-left: 150px;
+}
+.foot{
+    font-size: 18px;
+    text-align: center;
+    margin-top: 30px;
+    background-color: rgb(220, 234, 255);
+    border-radius:0 0 10px 10px;
+}
+#wjmm{
+    margin-left: 205px;
+}
+.pic{
+    margin-top: 8px;
+}
+#zcxzz{
+    background-color: white;
+    color: black;
+}

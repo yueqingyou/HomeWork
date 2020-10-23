@@ -1,0 +1,31 @@
+.main{
+    width: 800px;
+    height: 800px;
+    background-color: rgba(0, 128, 0, 0.479);
+    text-align: center;
+    border-radius: 20px;
+    margin: auto;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+}
+.foot span{
+    width: 10px;
+    margin: auto;
+    font-size: 25px;
+    line-height: 38px;
+    display: inline-table;
+}
+h2{
+    font-size: 40px;
+}
+img{
+    width: 400px;
+    height: auto;
+}
+#p1{
+    font-size: 20px;
+    font-style: oblique;
+}
