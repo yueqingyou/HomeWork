@@ -1,4 +1,10 @@
-.main p{
-    font-size: large;
-    color: blue;
+.p1 li{
+    float: right;
+    list-style: none;
+    margin-left: 20px;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    color: black;
 }
