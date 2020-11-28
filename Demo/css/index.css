@@ -7,10 +7,24 @@
     align-items: center;
 }
 .son{
-    width: 30px;
-    height: 30px;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     background-color: green;
 }
 body{
-    height: 1000px;
+    height: 300px;
+}
+.son div{
+    width: 20px;
+    height: 20px;
+    background-color: purple;
+    margin-right: 10px;
+}
+.two{
+    display: flex;
+    flex-wrap: nowrap;
 }
