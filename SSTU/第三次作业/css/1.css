@@ -1,64 +1,64 @@
-body{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.part{
-    width: 100px;
-    height: 100px;
-    display: flex;
-    border-style: solid;
-    border-radius: 15px;
-    margin-top: 25px;
-    padding: 10px;
+.part {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  border-style: solid;
+  border-radius: 15px;
+  margin-top: 25px;
+  padding: 10px;
 }
-.dian{
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    background-color: black;
+.dian {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: black;
 }
-.one{
-    justify-content: center;
-    align-items: center;
+.one {
+  align-items: center;
+  justify-content: center;
 }
-.two{
-    justify-content: space-around;
+.two {
+  justify-content: space-around;
 }
-.two div:nth-child(2){
-    align-self: flex-end;
+.two div:nth-child(2) {
+  align-self: flex-end;
 }
-.three{
-    justify-content: space-around;
+.three {
+  justify-content: space-around;
 }
-.three div:nth-child(2){
-    align-self: center;
+.three div:nth-child(2) {
+  align-self: center;
 }
-.three div:nth-child(3){
-    align-self: flex-end;
+.three div:nth-child(3) {
+  align-self: flex-end;
 }
-.four{
-    justify-content: space-around;
+.four {
+  justify-content: space-around;
 }
-.four > .kuai{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+.four > .kuai {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
-.five{
-    justify-content: space-around;
+.five {
+  justify-content: space-around;
 }
-.five > .kuai{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+.five > .kuai {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
-.six{
-    justify-content: space-around;
+.six {
+  justify-content: space-around;
 }
-.six > .kuai{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+.six > .kuai {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
