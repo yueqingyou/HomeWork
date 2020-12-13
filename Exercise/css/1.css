@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.sp{
+    width: 50%;
+    height: 100px;
+    background-color: green;
+    margin: 0 auto;
+    text-align: center;
+}
+.cz{
+    width: 50%;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    top: 50%;
+    transform: translate(0,-50%);
+}
+.flex{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+}
+#flex1{
+    background-color: red
+}
