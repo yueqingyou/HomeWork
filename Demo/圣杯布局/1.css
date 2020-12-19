@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+header,
+footer {
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  background-color: red;
+}
+.container {
+  overflow: hidden;
+  padding: 0 200px 0 150px;
+}
+.middle,
+.left,
+.right {
+  float: left;
+  text-align: center;
+  position: relative;
+}
+.middle {
+  width: 100%;
+  height: 200px;
+  background-color: green;
+}
+.left {
+  width: 150px;
+  height: 200px;
+  left: -150px;
+  margin-left: -100%;
+  background-color: black;
+}
+.right {
+  width: 200px;
+  height: 200px;
+  right: -200px;
+  margin-left: -200px;
+  background-color: black;
+}
+/*注意：
+.right设置margin-left 值不是100% 而是宽度
+中间三个元素都要设置 相对定位 relative
+container要设置overflow hidden
