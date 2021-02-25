@@ -1,38 +1,48 @@
-.container{
-    margin-top: 150px;
-    margin-left: 100px;
+.container {
+  margin-top: 150px;
+  margin-left: 100px;
 }
-a:hover{background-color: gray;}
-button{
-    background-color:black;
-    color: white;
-    height: 50px;
-    width: 100px;
-    font-size: 20px;
-    margin-right: 10px; 
+a:hover {
+  background-color: gray;
 }
-input{height: 45px;
-width: 300px;
-font-size: 20px;
-color: gray;
+button {
+  background-color: black;
+  color: white;
+  height: 50px;
+  width: 100px;
+  font-size: 20px;
+  margin-right: 10px;
 }
-.input1{
-    width: 240px;
-    margin-right: 20px;
+input {
+  height: 45px;
+  width: 300px;
+  font-size: 20px;
+  color: gray;
 }
-.button1{color: black;
-    width: 150px;
-background-color:dodgerblue
+.input1 {
+  width: 240px;
+  margin-right: 20px;
 }
-.button2{width: 255px;}
-.button3{background-color: fuchsia;
-    color: #00ff73;
-width: 142px;
+.button1 {
+  color: black;
+  width: 150px;
+  background-color: dodgerblue;
 }
-.footer{
-    background-color: #111;
-    clear: both;
-    text-align:center;
-    margin-top: 200px;
-    height: 35px;}
-    span{color: white;}
+.button2 {
+  width: 255px;
+}
+.button3 {
+  background-color: fuchsia;
+  color: #00ff73;
+  width: 142px;
+}
+.footer {
+  background-color: #111;
+  clear: both;
+  text-align: center;
+  margin-top: 200px;
+  height: 35px;
+}
+span {
+  color: white;
+}
